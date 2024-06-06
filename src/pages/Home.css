@@ -1,9 +1,23 @@
-.home .intro {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .home .intro h2 {
-    margin-bottom: 1rem;
-  }
-  
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #c7b9ac;
+}
+
+.home {
+  text-align: center;
+}
+
+.intro {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.intro h2 {
+  color: white;
+}
+
+.intro p {
+  color: white;
+}

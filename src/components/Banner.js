@@ -9,6 +9,7 @@ const Banner = () => {
         <div className="banner-text">
           <h1>Welcome to Our Jewelry Store</h1>
           <p>Discover our exclusive collection</p>
+          <button className="shop-now-btn">Shop Now</button>
         </div>
         <div className="banner-image">
           <img src={bannerImage} alt="Jewelry Banner" />
