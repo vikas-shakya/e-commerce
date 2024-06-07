@@ -7,6 +7,7 @@ import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Category from './pages/Category';
 import ProductDetail from './pages/ProductDetail';
+import CheckoutForm from './pages/CheckoutForm';
 import './App.css';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/category/:category" element={<Category />} />
             <Route path="/product/:productId" element={<ProductDetail />} />
+            <Route path="/checkout" element={<CheckoutForm />} /> {/* Change the path to /checkout */}
           </Routes>
         </main>
         <Footer />
